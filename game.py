@@ -109,7 +109,7 @@ while True:
                     emotion = result["emotion"].strip()
                     current_emotion = emotion if emotion in sprites else "Normal"
                 except:
-                    full_reply = "E-eh... I got shy... (///▽///)"
+                    full_reply = "E-eh... I got shy..."
                 user_input = ""
                 input_active = False
 
@@ -164,4 +164,5 @@ while True:
         screen.blit(hint, hint.get_rect(centerx=WIDTH//2, y=HEIGHT - 85))
 
     pygame.display.flip()
+
     clock.tick(60)
