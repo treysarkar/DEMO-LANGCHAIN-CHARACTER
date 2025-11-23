@@ -1,7 +1,3 @@
-# ======================================================================
-#  A L I C E  —  FINAL & PERFECT
-#  Text 100% fits inside the reply box — forever
-# ======================================================================
 
 import pygame
 import textwrap
