@@ -1,0 +1,8 @@
+pygame
+textwrap3
+langchain-core
+langchain-community
+langchain-groq
+langchain-classic
+groq
+python-dotenv
